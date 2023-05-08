@@ -1,0 +1,49 @@
+.container {
+  height: 50%;
+  width: full;
+  background-color: #fbeaeb;
+  border-radius: 10px;
+}
+label,
+input {
+  display: block;
+  margin: 5px;
+  padding: 4px;
+}
+button {
+  margin-left: 5px;
+  margin-top: 5px;
+  padding: 5px;
+}
+h1 {
+  font-size: 20px;
+  background-color: #2f3c7e;
+  padding: 5px;
+  color: #fff;
+}
+input {
+  border-radius: 5px;
+}
+#is-triangle-btn {
+  padding: 5px 10px;
+  border-radius: 5px;
+  outline: none;
+  font-weight: bold;
+  background-color: #2f3c7e;
+  color: #fff;
+}
+#is-triangle-btn:hover {
+  transform: scale(1.1);
+}
+#is-triangle-btn:active {
+  transform: scale(1);
+}
+#output {
+  margin-top: 10px;
+  background-color: #2f3c7e;
+  color: #fff;
+  font-weight: bold;
+  padding: 5px;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+}

@@ -1,0 +1,26 @@
+body {
+  color: #f68b27;
+}
+.container {
+  height: 50%;
+  width: full;
+  background-color: #000;
+  border-radius: 10px;
+  padding: 10px;
+}
+h1 {
+  margin: 10px;
+}
+#submit-answer-button {
+  margin: 10px;
+  font-size: 20;
+  padding: 5px 10px;
+  border-radius: 5px;
+  font-weight: bold;
+}
+#submit-answer-button:hover {
+  transform: scale(0.95);
+}
+#submit-answer-button:active {
+  transform: scale(1);
+}
